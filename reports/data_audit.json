@@ -1,0 +1,124 @@
+{
+  "archive_sha256": "afc26626d710899948693e1a61405dce197f57ffa719fa1130d346b4cc095343",
+  "cleaned": {
+    "domain_labels": {
+      "amazon:0": 496,
+      "amazon:1": 491,
+      "imdb:0": 498,
+      "imdb:1": 498,
+      "yelp:0": 497,
+      "yelp:1": 499
+    },
+    "domains": {
+      "amazon": 987,
+      "imdb": 996,
+      "yelp": 996
+    },
+    "labels": {
+      "0": 1491,
+      "1": 1488
+    },
+    "rows": 2979
+  },
+  "dataset": "uci_sentiment_labelled_sentences",
+  "normalization": "unicode_nfkc_casefold_whitespace_v1",
+  "raw": {
+    "domain_labels": {
+      "amazon:0": 500,
+      "amazon:1": 500,
+      "imdb:0": 500,
+      "imdb:1": 500,
+      "yelp:0": 500,
+      "yelp:1": 500
+    },
+    "domains": {
+      "amazon": 1000,
+      "imdb": 1000,
+      "yelp": 1000
+    },
+    "labels": {
+      "0": 1500,
+      "1": 1500
+    },
+    "rows": 3000
+  },
+  "removed": {
+    "conflicting_groups_removed": 0,
+    "conflicting_rows_removed": 0,
+    "duplicate_rows_removed": 21
+  },
+  "requested_ratios": {
+    "test": 0.2,
+    "train": 0.6,
+    "validation": 0.2
+  },
+  "seed": 42,
+  "source_url": "https://archive.ics.uci.edu/static/public/331/sentiment%2Blabelled%2Bsentences.zip",
+  "split_algorithm": "sha256_seed_text_id_rank_per_domain_label_v1",
+  "split_overlap_count": 0,
+  "splits": {
+    "test": {
+      "domain_labels": {
+        "amazon:0": 100,
+        "amazon:1": 99,
+        "imdb:0": 101,
+        "imdb:1": 101,
+        "yelp:0": 100,
+        "yelp:1": 101
+      },
+      "domains": {
+        "amazon": 199,
+        "imdb": 202,
+        "yelp": 201
+      },
+      "labels": {
+        "0": 301,
+        "1": 301
+      },
+      "rows": 602,
+      "sha256": "ddb6254cf48f03cf3f16127951ce8389e6f1abf2d3a2d81368f755a43f509291"
+    },
+    "train": {
+      "domain_labels": {
+        "amazon:0": 297,
+        "amazon:1": 294,
+        "imdb:0": 298,
+        "imdb:1": 298,
+        "yelp:0": 298,
+        "yelp:1": 299
+      },
+      "domains": {
+        "amazon": 591,
+        "imdb": 596,
+        "yelp": 597
+      },
+      "labels": {
+        "0": 893,
+        "1": 891
+      },
+      "rows": 1784,
+      "sha256": "b7bc31d0121dc386207157e65f70b6567f0ce0f9f624f2f61deec69a8f62f33e"
+    },
+    "validation": {
+      "domain_labels": {
+        "amazon:0": 99,
+        "amazon:1": 98,
+        "imdb:0": 99,
+        "imdb:1": 99,
+        "yelp:0": 99,
+        "yelp:1": 99
+      },
+      "domains": {
+        "amazon": 197,
+        "imdb": 198,
+        "yelp": 198
+      },
+      "labels": {
+        "0": 297,
+        "1": 296
+      },
+      "rows": 593,
+      "sha256": "9494be83fac24dfa3f085e3b3ff152d353505309ecc0bae8fc8f14db1bb54a1b"
+    }
+  }
+}

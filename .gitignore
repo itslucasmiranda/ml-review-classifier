@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded reviews, derived splits and model artifacts
+/data/raw/
+/data/processed/
+/artifacts/

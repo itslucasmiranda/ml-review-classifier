@@ -1,0 +1,43 @@
+{
+  "model": "tfidf_logistic_regression",
+  "dataset": "uci-v1",
+  "test_samples": 602,
+  "accuracy": 0.8156146179401993,
+  "classification_report": {
+    "negative": {
+      "precision": 0.8125,
+      "recall": 0.8205980066445183,
+      "f1-score": 0.8165289256198347,
+      "support": 301.0
+    },
+    "positive": {
+      "precision": 0.8187919463087249,
+      "recall": 0.8106312292358804,
+      "f1-score": 0.8146911519198664,
+      "support": 301.0
+    },
+    "accuracy": 0.8156146179401993,
+    "macro avg": {
+      "precision": 0.8156459731543624,
+      "recall": 0.8156146179401993,
+      "f1-score": 0.8156100387698506,
+      "support": 602.0
+    },
+    "weighted avg": {
+      "precision": 0.8156459731543625,
+      "recall": 0.8156146179401993,
+      "f1-score": 0.8156100387698506,
+      "support": 602.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      247,
+      54
+    ],
+    [
+      57,
+      244
+    ]
+  ]
+}

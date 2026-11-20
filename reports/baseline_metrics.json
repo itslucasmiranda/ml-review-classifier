@@ -1,0 +1,16 @@
+{
+  "dummy_classifier": {
+    "accuracy": 0.5008431703204047,
+    "precision_macro": 0.25042158516020235,
+    "recall_macro": 0.5,
+    "f1_macro": 0.33370786516853934
+  },
+  "tfidf_logistic_regression": {
+    "accuracy": 0.7976391231028668,
+    "precision_macro": 0.797694898284258,
+    "recall_macro": 0.7976271726271726,
+    "f1_macro": 0.7976247355129342
+  },
+  "train_samples": 1784,
+  "validation_samples": 593
+}

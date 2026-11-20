@@ -2,7 +2,17 @@
 
 Pipeline de classificação de sentimento em avaliações textuais, com foco em dados verificáveis, experimentos reproduzíveis e comparação de modelos.
 
-**Status:** primeira entrega implementada: preparação e auditoria dos dados. O treinamento e as métricas de classificação pertencem às próximas entregas. Ainda não existe modelo pronto para predição.
+**Status:** baseline de classificação implementado e avaliado.
+
+O projeto utiliza TF-IDF + Logistic Regression para
+classificar avaliações em inglês como positivas ou negativas.
+
+Resultados no conjunto de teste (602 avaliações):
+- Accuracy: 81,56%
+- Macro F1-score: 81,56%
+
+Modelo publicado:
+https://huggingface.co/itslucasmiranda/ml-review-classifier
 
 ## Problema e escopo
 
